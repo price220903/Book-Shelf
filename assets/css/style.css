@@ -173,3 +173,41 @@ p {
     background-color: darkred;
     color: #FFA732;
 }
+
+@media screen and (max-width: 600px) {
+    .search_section {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .search_section>h2 {
+        text-align: center;
+    }
+
+    .search_section>form>input {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        border-radius: 5px;
+    }
+
+    .search_section>form>button {
+        background-color: #EF4040;
+        color: #FFA732;
+        border: 0;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+        padding: 8px;
+        cursor: pointer;
+    }
+
+    .input_section>form>label {
+        color: #EF4040;
+        font-weight: bold;
+    }
+
+}
