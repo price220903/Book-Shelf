@@ -102,7 +102,7 @@ main {
     color: #EF4040;
 }
 
-.search_section>form>.search {
+.search_section>form>.input {
     margin: 8px 0;
 }
 
@@ -117,10 +117,6 @@ main {
     cursor: pointer;
 }
 
-.input_section>form>button>span {
-    font-weight: bold;
-}
-
 .search_section>form>.input>input {
     display: block;
     width: 100%;
@@ -132,18 +128,6 @@ main {
 .search_section>form>.input>label {
     color: #EF4040;
     font-weight: bold;
-}
-
-.search_section>form>.input_inline {
-    margin: 12px 0;
-    display: flex;
-    align-items: center;
-}
-
-.search_section>form>.input_inline>label {
-    color: #EF4040;
-    font-weight: bold;
-    margin-right: 10px;
 }
 
 .book_shelf {
